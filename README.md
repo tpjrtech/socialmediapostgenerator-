@@ -87,7 +87,7 @@ This project is a custom widget for generating social media posts using the Open
     </div>
     <p style="font-size: 12px; color: #888; text-align: center;">Powered by GPT-4o</p>
 </div>
-
+```
 ##CSS Structure
 
 ```css
@@ -227,3 +227,4 @@ This project is a custom widget for generating social media posts using the Open
         font-size: 14px;
     }
 }
+```

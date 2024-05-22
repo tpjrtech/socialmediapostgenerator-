@@ -1,6 +1,6 @@
 # Social Media Post Generator
 
-This project is a custom widget for generating social media posts using the OpenAI GPT-4o model. It allows users to input event details, shoutouts, hashtags, and vendor tags to create personalized and engaging social media posts for platforms like Facebook and Instagram. The widget is designed to be integrated into a Duda website and includes options to refine generated posts.
+This project is a custom widget for generating social media posts using the OpenAI GPT-4o model. It allows users to input event details, shoutouts, hashtags, and vendor tags to create personalized and engaging social media posts for platforms like Facebook and Instagram. The widget is designed to be integrated into a Duda website and includes options to refine generated posts. **Full Disclaimer, I utilized the Chat-GPTo model to code, debug, and document this project. 
 
 ## Key Features
 

@@ -87,3 +87,140 @@ This project is a custom widget for generating social media posts using the Open
     </div>
     <p style="font-size: 12px; color: #888; text-align: center;">Powered by GPT-4o</p>
 </div>
+
+/* Scoped Custom Widget CSS */
+#post-generator-widget {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 800px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    box-sizing: border-box;
+    overflow: visible;
+}
+
+#post-generator-widget h2 {
+    text-align: center;
+    margin-top: 0;
+}
+
+#post-generator-widget form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#post-generator-widget label {
+    margin-top: 10px;
+}
+
+#post-generator-widget input[type="text"],
+#post-generator-widget textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#post-generator-widget input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+#post-generator-widget button {
+    padding: 10px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#post-generator-widget button:hover {
+    background-color: #0056b3;
+}
+
+#post-generator-widget #generated-posts {
+    margin-top: 20px;
+}
+
+#post-generator-widget #generated-posts h3 {
+    margin-bottom: 10px;
+}
+
+#post-generator-widget #generated-posts div {
+    margin-bottom: 20px;
+}
+
+#post-generator-widget #generated-posts p {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    white-space: pre-wrap;
+}
+
+#post-generator-widget #refine-section {
+    margin-top: 20px;
+}
+
+#post-generator-widget #refine-section label {
+    margin-top: 10px;
+}
+
+#post-generator-widget #refine-section textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#post-generator-widget #refine-section button {
+    margin-top: 10px;
+}
+
+#post-generator-widget button#copy-facebook-post,
+#post-generator-widget button#copy-instagram-post {
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #28a745;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+#post-generator-widget button#copy-facebook-post:hover,
+#post-generator-widget button#copy-instagram-post:hover {
+    background-color: #218838;
+}
+
+#post-generator-widget p {
+    margin: 0;
+}
+
+#post-generator-widget #post-content {
+    margin-bottom: 20px;
+}
+
+@media (max-width: 600px) {
+    #post-generator-widget {
+        padding: 15px;
+    }
+
+    #post-generator-widget button {
+        font-size: 14px;
+    }
+}

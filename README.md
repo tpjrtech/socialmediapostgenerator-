@@ -88,6 +88,9 @@ This project is a custom widget for generating social media posts using the Open
     <p style="font-size: 12px; color: #888; text-align: center;">Powered by GPT-4o</p>
 </div>
 
+##CSS Structure
+
+```css
 /* Scoped Custom Widget CSS */
 #post-generator-widget {
     font-family: Arial, sans-serif;

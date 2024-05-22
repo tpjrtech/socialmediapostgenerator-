@@ -1,0 +1,44 @@
+<div id="post-generator-widget">
+    <h2>Social Media Post Generator</h2>
+    <p>Please fill out the form below to generate a social media post. Provide details about the event, and optionally, shoutouts, hashtags, and vendor tags. This will help create a personalized and engaging post. The optimal length is 40-80 characters for Facebook and 138-150 characters for Instagram.</p>
+    <form id="post-form">
+        <label for="event-name">Event Name:</label>
+        <input type="text" id="event-name" placeholder="e.g., Rochester Prep High School Prom" required>
+        <label for="details">Event Details:</label>
+        <textarea id="details" rows="4" placeholder="e.g., A night to remember with dancing, food, and fun" required></textarea>
+        <label for="shoutouts">Shoutouts (optional):</label>
+        <input type="text" id="shoutouts" placeholder="e.g., Special thanks to our amazing DJ">
+        <label for="venue">Venue:</label>
+        <input type="text" id="venue" placeholder="e.g., Harro East Ballroom" required>
+        <label for="hashtags">Hashtags (optional):</label>
+        <input type="text" id="hashtags" placeholder="e.g., #RochesterPrepProm #Prom2024">
+        <label for="vendors">Vendors (optional):</label>
+        <textarea id="vendors" rows="3" placeholder="e.g., Photographer, Catering, Rentals"></textarea>
+        <label>
+            <input type="checkbox" id="limit-length" checked>
+            Keep post under recommended length for Facebook (40-80 characters) and Instagram (138-150 characters)
+        </label>
+        <button type="submit">Generate Posts</button>
+        <button type="button" id="clear-form">Clear Form</button> <!-- Clear Form button -->
+    </form>
+    <div id="generated-posts" style="display: none;">
+        <h3>Generated Posts:</h3>
+        <div>
+            <h4>Facebook Post</h4>
+            <textarea id="facebook-post-content" rows="4"></textarea>
+            <button id="copy-facebook-post">Copy Facebook Post</button>
+        </div>
+        <div>
+            <h4>Instagram Post</h4>
+            <textarea id="instagram-post-content" rows="4"></textarea>
+            <button id="copy-instagram-post">Copy Instagram Post</button>
+        </div>
+        <button id="copy-both-posts">Copy Both Posts</button> <!-- New button to copy both posts -->
+        <div id="refine-section" style="display: none;">
+            <label for="refine-instructions">Refinement Instructions:</label>
+            <textarea id="refine-instructions" rows="3" placeholder="e.g., Make it sound more exciting, Add a mention of the great food"></textarea>
+            <button id="refine-button">Refine Posts</button>
+        </div>
+    </div>
+    <p style="font-size: 12px; color: #888; text-align: center;">Powered by GPT-4o</p>
+</div>
